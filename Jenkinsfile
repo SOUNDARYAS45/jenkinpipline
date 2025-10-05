@@ -5,7 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git 'https://github.com/SOUNDARYAS45/jenkins1.git'
+                git 'https://github.com/SOUNDARYAS45/jenkinpipline.git'
+
             }
         }
 
